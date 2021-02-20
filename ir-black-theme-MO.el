@@ -43,7 +43,7 @@
 
 ;;; Code:
 
-(deftheme ir-black "Port of ir-black theme")
+(deftheme ir-black-MO "Port of ir-black theme")
 
 (let ((*background-color*   "#000000")
       (*brown*              "#E64")
@@ -73,7 +73,7 @@
       (*visual-selection*   "#FFA560"))
 
   (custom-theme-set-faces
-   'ir-black
+   'ir-black-MO
 
    `(bold ((t (:bold t))))
    `(button ((t (:foreground, *keywords* :underline t))))
@@ -150,5 +150,5 @@
 ;; no-byte-compile: t
 ;; End:
 
-(provide-theme 'ir-black)
+(provide-theme 'ir-black-MO)
 ;;; ir-black-theme.el ends here
