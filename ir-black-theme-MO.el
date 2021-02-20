@@ -45,7 +45,7 @@
 
 (deftheme ir-black-MO "Port of ir-black theme")
 
-(let ((*background-color*   "#000000")
+(let ((*background-color*   "#3b7054")
       (*brown*              "#E64")
       (*comments*           "#FF0000")
       (*constant*           "#008080")
